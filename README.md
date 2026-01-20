@@ -31,6 +31,7 @@ DELETE /shorten/{shortCode} – Delete URL
 
 GET /shorten/{shortCode}/stats – Get stats
 
+<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/249866ba-60e1-4686-be52-b7abdcc0d69e" />
 
 ## Run Locally
 ```bash
