@@ -10,6 +10,7 @@ This project demonstrates REST API development, database integration, and API do
 - Delete URLs
 - Get URL access statistics
 - Swagger UI for API documentation
+- Builder design pattern for creating short url
 
 ## Tech Stack
 - Java 17, Spring Boot
