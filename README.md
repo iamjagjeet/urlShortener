@@ -18,6 +18,20 @@ This project demonstrates REST API development, database integration, and API do
 - Swagger/OpenAPI
 - Maven
 
+
+Endpoints
+
+POST /shorten – Create short URL
+
+GET /shorten/{shortCode} – Retrieve original URL
+
+PUT /shorten/{shortCode} – Update URL
+
+DELETE /shorten/{shortCode} – Delete URL
+
+GET /shorten/{shortCode}/stats – Get stats
+
+
 ## Run Locally
 ```bash
 mvn spring-boot:run
