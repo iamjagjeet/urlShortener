@@ -36,3 +36,16 @@ GET /shorten/{shortCode}/stats – Get stats
 ## Run Locally
 ```bash
 mvn spring-boot:run
+```
+📝 Notes
+
+H2 is used for development and testing. In production, replace with MySQL/PostgreSQL.
+
+shortCode generation uses a 6-character Base62 string, ensuring uniqueness with DB constraint.
+
+ResourceNotFoundException returns 404 for missing short URLs.
+
+
+👤 Author
+Jagjeet Kaur Randhawa
+Full Stack Developer | Backend Enthusiast | Java & Spring Boot
